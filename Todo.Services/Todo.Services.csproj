@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="DTO\TodoDto.cs" />
     <Compile Include="ITodoService.cs" />
+    <Compile Include="LogginService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TodoService.cs" />
   </ItemGroup>
