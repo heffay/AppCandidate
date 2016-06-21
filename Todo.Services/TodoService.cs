@@ -5,11 +5,11 @@ namespace Todo.Services {
 	public class TodoService : ITodoService{
 
 		private ITodoRepository _todoRepo;
-	    LogginService _loggingService;
+	    LoggingService _loggingService;
 
 	    public TodoService(ITodoRepository todoRepo) {
 			_todoRepo = todoRepo;
-		    _loggingService = new LogginService();
+		    _loggingService = new LoggingService();
 		}
 
 		public TodoDto[] GetTodosNotCompletedForUser(int userId) {			

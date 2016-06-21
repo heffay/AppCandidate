@@ -1,7 +1,7 @@
 Aescentia applicant solution
 =========
 
-This code repository contains a *very* simple VS 2012 .NET solution that is purposefully not complete. The goal is to make changes to the code base in order to have passing unit tests and some basic refactorings. For simplicity, this solution does not contain a database. For this exercise, please create some fake data in the data/repository layer (similar to what is used for fake data in the TodoServiceTestFixture class).
+This code repository contains a *very* simple VS 2012 .NET solution that is purposefully not complete. The goal is to make changes to the code base in order to have passing unit tests and complete some refactoring that promotes best practices. For simplicity, this solution does not contain a database. For this exercise, please create some fake data in the data/repository layer (similar to what is used for fake data in the TodoServiceTestFixture class).
 
 If you are not able to complete all of the requirements, that is fine. This is a level setting exercise. 
 
@@ -14,9 +14,11 @@ Required tools
 
 Rules
 -----
-- Please complete in 24 hours
+- Please complete as much as you can in 24 hours from receiving the notice
 - You may use any internet resource to do research
-- Only one brain. Please don't use somebody else to complete
+- Only one brain. Please don't use somebody else to complete. You will be asked about the results
+- Complete as much as you can. If you get stuck, just move onto the next requirement
+	- Depending on the position the candidate is applying for, some stories may be considered more advanced and that will be taken into consideration. Just do your best
 
 Minimum Requirements
 --------------
@@ -41,7 +43,7 @@ Stories
     - This does not need to persist the data to a database, update an internal collection of fake data in the repository layer
     - Add a unit test that covers this behavior
     - A page is not necessary, the service methods and the unit test will suffice.
-- Add the ability to log messages within the application. Ensure logging is performed at the correct level of the application based on the intent of the type of logging being performed (Error, Warn, Info, Debug).
+- Add the ability to log messages within the application. Modify the included LoggingService and ensure logging is performed at the correct level of the application based on the intent of the type of logging being performed (Error, Warn, Info, Debug).
     - The output location of the loggingService should be dynamic and not specific to the file system (ie. could be azure, local db, file system).
 - Add the appropriate unit tests in the solutions to cover the logging behaviors used within the code
 

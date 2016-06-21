@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Todo.Services
 {
-    public class LogginService
+    public class LoggingService
     {
         public void Error(string message, Exception ex = null)
         {
