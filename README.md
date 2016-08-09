@@ -54,4 +54,4 @@ Bonus
 - Implement on the search results page the ability to mark a task as complete.
 
 
-#### When complete, please zip the solution files up and email to the contact that sent you the link to this project. If issues encountered sending any .exe files rename the zip with a .txt extension ####
+#### When complete, please zip the solution files up and deliver the file to the contact that sent you the link to this project. If issues encountered sending large or executable files, be creative ####
