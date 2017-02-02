@@ -1,4 +1,4 @@
-Aescentia applicant solution
+Applicant solution challenge
 =========
 
 This code repository contains a *very* simple VS 2012 .NET solution that is purposefully not complete. The goal is to make changes to the code base in order to have passing unit tests and complete some refactoring that promotes best practices. For simplicity, this solution does not contain a database. For this exercise, please create some fake data in the data/repository layer (similar to what is used for fake data in the TodoServiceTestFixture class).
